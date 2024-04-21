@@ -1,16 +1,14 @@
-import pluginJs from "@eslint/js";
-
 export default {
-  env: {
-    browser: true,
-    node: true,
-  },
-  globals: {
-    $: "readonly", // for jQuery
-  },
   files: ["**/*.js"],
   languageOptions: {
+    ecmaVersion: 2021,
     sourceType: "module",
+    globals: {
+      $: "readonly", // for jQuery
+    },
   },
-  extends: [pluginJs.configs.recommended],
+  rules: {
+    "no-unused-vars": "warn",
+    "no-console": "off",
+  },
 };
