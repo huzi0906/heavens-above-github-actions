@@ -88,3 +88,6 @@ public/data
 
 # FireBase cache
 .firebase/
+
+# Secret files
+secrets.json
