@@ -8,7 +8,7 @@ updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "weekly"
+      interval: "daily"
     versioning-strategy: "auto" # or "lockfile-only", "widen", "lockfile", "compatibility", "increase", "increase-if-necessary"
     reviewers: # GitHub usernames of people to request for review
       - "huzi0906"
