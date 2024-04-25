@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node run.js",
     "test": "echo \"No test specified\"",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "docs": "jsdoc -c jsdoc.json"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
@@ -34,6 +35,7 @@
     "@eslint/js": "^9.1.1",
     "eslint": "^9.1.0",
     "firebase-tools": "^13.7.4",
-    "globals": "^15.0.0"
+    "globals": "^15.0.0",
+    "jsdoc": "^4.0.2"
   }
 }
