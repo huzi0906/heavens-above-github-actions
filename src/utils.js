@@ -107,5 +107,3 @@ module.exports = {
   iridium_options,
   md5,
 };
-
-// For testing docs and releases
