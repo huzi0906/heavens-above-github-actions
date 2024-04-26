@@ -20,6 +20,8 @@ jobs:
         run: npm ci
       - name: Start server
         run: npm start &
+      - name: Wait for server
+        run: npx wait-on http://localhost:3000
       - name: Run Lighthouse
         uses: treosh/lighthouse-ci-action@v7
         with:
