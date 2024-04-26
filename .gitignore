@@ -91,3 +91,6 @@ public/data
 
 # Secret files
 secrets.json
+
+# Documentation
+docs/
